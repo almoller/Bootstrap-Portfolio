@@ -1,0 +1,79 @@
+body {
+    background-image: url("images/gplaypattern.png");
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 24px !important;
+}
+
+h2 {
+    color: lightseagreen;
+}
+
+.navbar {
+   box-shadow: 4px 4px 20px gray;
+}
+
+.navbar-brand {
+    background: lightseagreen;
+}
+
+.navbar-toggler {
+    color: #fff;
+}
+
+.nav-link:hover {
+    background-color: lightseagreen !important;    
+    color: #fff !important;
+}
+
+#main, #connect {
+    background: rgba(32, 178, 171, 0.15) !important;
+    border: 3px ridge rgba(128, 128, 128, 0.2) !important;
+}
+
+
+.folioPic_Container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.folioPic_Text {
+    position: absolute;
+    top: 60%;
+    left: 0;
+}
+  
+.folioPic_Link {
+    padding: 7px 15px;
+    text-decoration: none;
+    color: gray;
+    border: 3px ridge rgba(128, 128, 128, 0.2);
+}
+
+.folioPic_Text  a:hover {
+    background: lightseagreen !important;
+    color: #ffffff;    
+    border: 3px ridge rgba(231, 231, 231, 0.5);
+    text-decoration: none;
+}
+
+#submit {
+    border-width: 2px;
+    border-color: lightseagreen;
+}
+
+#submit:hover {
+    background: lightseagreen !important;
+    color: #fff !important;
+}
+
+.footer {
+    clear: both;
+    margin-top: auto;
+    font-size: 12px;    
+}
