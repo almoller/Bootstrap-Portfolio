@@ -31,6 +31,11 @@ h2 {
     color: #fff !important;
 }
 
+.active a {
+    color: lightseagreen !important;
+    font-weight: 500;
+}
+
 #main, #connect {
     background: rgba(32, 178, 171, 0.15) !important;
     border: 3px ridge rgba(128, 128, 128, 0.2) !important;
